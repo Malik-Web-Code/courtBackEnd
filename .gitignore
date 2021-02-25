@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+logfile.log
+
+ config/dev.json
+
+
+

@@ -1,0 +1,44 @@
+{
+  "name": "beverix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "seed": "node seed.js",
+    "test": "jest --watchAll --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "config": "^1.29.4",
+    "cors": "^2.8.4",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "express-async-errors": "^2.1.0",
+    "fawn": "^2.1.5",
+    "joi": "^13.4.0",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.1.1",
+    "lodash": "^4.17.20",
+    "moment": "^2.20.1",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.5",
+    "react-toastify": "^6.0.9",
+    "sequelize": "^6.3.5",
+    "stripe": "^8.121.0",
+    "walker": "^1.0.7",
+    "winston": "^2.4.0",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^22.2.2",
+    "supertest": "^3.0.0"
+  }
+}

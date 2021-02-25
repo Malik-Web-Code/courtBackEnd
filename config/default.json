@@ -1,0 +1,6 @@
+{
+  "jwtPrivateKey": "unsecureKey",
+  "db": "mongodb://localhost:27017/court",
+  "port": "3001",
+  "requiresAuth": false
+}
